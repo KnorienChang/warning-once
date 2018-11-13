@@ -4,4 +4,4 @@
 yarn
 yarn serve
 ```
-> 感觉 @TenkaiRuri 提供API处理
+> 感觉 [@TenkaiRuri](https://github.com/TenkaiRuri) 提供API处理
