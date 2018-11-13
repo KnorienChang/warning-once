@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "deploy": "sudo ./deploy.sh",
+    "deploy": "./deploy.sh",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "html2canvas": "^1.0.0-alpha.12",
     "vue": "^2.5.17"
   },
