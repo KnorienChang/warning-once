@@ -53,7 +53,8 @@ export default {
   methods: {
     async addQqNumber () {
       if (this.qqNumber && !this.qqList.some(item => item.qqNumber === this.qqNumber)) {
-        const res = await axios.get(`https://vuer.herokuapp.com/user/${this.qqNumber}`)
+        // const res = await axios.get(`https://vuer.herokuapp.com/user/${this.qqNumber}`)
+        const res = await axios.get(`/fcg-bin/cgi_get_portrait.fcg?uins=${this.qqNumber}`)
         let nickname = res.data.nickname
         this.qqList.push({
           qqNumber: this.qqNumber,
